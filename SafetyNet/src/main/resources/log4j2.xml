@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{0}:%L - %msg%n"/>
+        </Console>
+        <File name="File" fileName="logs/app.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="off">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+        <Logger name="com.rashmi.SafetyNet" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Logger>
+        
+        <!-- Disable logging for specific framework packages -->
+        <Logger name="org.springframework" level="off"/>
+        <Logger name="org.hibernate" level="off"/>
+        <Logger name="org.apache" level="off"/>
+        <Logger name="com.zaxxer.hikari" level="off"/> <!-- HikariCP logs -->
+    </Loggers>
+</Configuration>

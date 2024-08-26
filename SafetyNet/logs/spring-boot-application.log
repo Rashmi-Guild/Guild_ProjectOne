@@ -1,0 +1,17 @@
+2024-08-03 18:36:23 - Starting SafetyNetApplication using Java 17.0.2 with PID 14060 (C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes started by rkart in C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet)
+2024-08-03 18:36:23 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-08-03 18:36:23 - No active profile set, falling back to 1 default profile: "default"
+2024-08-03 18:36:23 - Loading source class com.rashmi.SafetyNet.SafetyNetApplication
+2024-08-03 18:36:23 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5480cf0c
+2024-08-03 18:36:23 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2024-08-03 18:36:23 - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\controller\EndPointsController.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\controller\FireStationController.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\controller\MedicalRecordController.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\controller\PersonController.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\DataLoader.class]
+2024-08-03 18:36:23 - Ignored because not a concrete top-level class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\repositories\FireStationRepository.class]
+2024-08-03 18:36:23 - Ignored because not a concrete top-level class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\repositories\MedicalRecordRepository.class]
+2024-08-03 18:36:23 - Ignored because not a concrete top-level class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\repositories\PersonRepository.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\resources\LoadJson.class]
+2024-08-03 18:36:23 - Identified candidate component class: file [C:\Guild_SafetyNetProject\Project1\SafetyNet\SafetyNet\target\classes\com\rashmi\SafetyNet\service\EndpointsService.class]
