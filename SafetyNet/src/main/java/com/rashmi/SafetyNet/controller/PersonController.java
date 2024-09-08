@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import com.rashmi.SafetyNet.repositories.PersonRepository;
-import com.rashmi.SafetyNet.resources.MedicalRecord;
 import com.rashmi.SafetyNet.resources.Person;
 
 @RestController

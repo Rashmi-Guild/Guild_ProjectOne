@@ -53,5 +53,18 @@ public class MedicalRecord {
 	public void setAllergies(List<String> allergies) {
 		this.allergies = allergies;
 	}
+	public MedicalRecord(Long id, String firstName, String lastName, String birthdate, List<String> medications,
+			List<String> allergies) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.birthdate = birthdate;
+		this.medications = medications;
+		this.allergies = allergies;
+	}
 
+	public MedicalRecord() {
+		
+	}
 }

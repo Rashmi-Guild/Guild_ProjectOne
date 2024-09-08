@@ -30,4 +30,13 @@ public class FireStation {
 	public void setStation(int station) {
 		this.station = station;
 	}
-}
+	public FireStation(Long id, String address, int station) {
+		super();
+		this.id = id;
+		this.address = address;
+		this.station = station;
+	}
+	
+	public FireStation() {
+	}
+	}
